@@ -9,6 +9,9 @@ packages:
 - location:
     git: git@github.com:EDeijl/reactive-banana-sdl2.git
     commit: 8e13502e055308525e695656a4676b9fed3db212
+- location:
+    git: git@github.com:EDeijl/hs-sdl2-image.git 
+    commit: 58c4a5c19ee7460a34592ac4cf89afac3d013333 
 
 # Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
 extra-deps: 
