@@ -9,13 +9,17 @@ packages:
 - location:
     git: git@github.com:EDeijl/reactive-banana-sdl2.git
     commit: 8e13502e055308525e695656a4676b9fed3db212
+  extra-dep: true
 - location:
     git: git@github.com:EDeijl/hs-sdl2-image.git 
-    commit: 58c4a5c19ee7460a34592ac4cf89afac3d013333 
+    commit: eed95ac2f684cc52dcd138b32e2596fa83ef7a80 
+  extra-dep: true
 
 # Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
 extra-deps: 
 - reactive-banana-1.1.0.0
+- reactive-banana-sdl2-0.1.0.0
+- sdl2-image-0.1.3.2
 
 # Override default flag values for local packages and extra-deps
 flags: {}
